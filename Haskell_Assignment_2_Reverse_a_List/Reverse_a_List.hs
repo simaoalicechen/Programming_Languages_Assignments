@@ -1,5 +1,5 @@
 --Write programs in Haskell that reverses a simple list of integers using recursion; specifically, in tail recursive form. Do not use higher order functions such as
---“reverse”, comprehensive lists or functions from a library.
+-- reverse, comprehensive lists or functions from a library.
 
 reverse_list :: [int] -> [int]  
 reverse_list l = reverse_list_helper l []  
